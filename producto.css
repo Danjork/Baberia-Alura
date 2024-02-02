@@ -28,6 +28,11 @@ nav a{
     text-decoration: none;
 }
 
+nav a:hover{
+/*hover captura eventos del mouse y cambiar el color del elemento */
+color: #c78c19;
+text-decoration: underline;
+}
 .cuerpo{
     margin: 0 auto;
 }
@@ -58,7 +63,22 @@ nav a{
 
     border-radius: 10px 10px 10px 10px;
 }
-/* box-sizing */
+
+.productos li:hover{
+    /*HOVER captura el moviemnto del mouse*/
+    border-color: rgb(145, 255, 0);
+   
+}
+
+.productos li:hover h2{
+/*aplica al h2, cuando el mouse pase por encima del texto o recuadro aplica el cambio de fuente  */
+font-size: 33px;
+}
+
+.productos li:active{
+    /*HOVER captura el moviemnto del mouse*/
+    border-color: rgb(255, 153, 0);
+}
 
 .productos h2{
     font-weight: bold;
