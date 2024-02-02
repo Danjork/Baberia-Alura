@@ -94,3 +94,12 @@ font-size: 33px;
     font-weight: bold;
     margin-top: 10px;
 }
+
+footer{
+    /*primera cosa es centralizar los elementos
+    background ocupa todo el espacio*/
+    text-align: center;
+    background: url(imagenes/bg.jpg);
+    padding: 40px;
+
+}
